@@ -9,8 +9,20 @@
   <h2>{{selectedStudent.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selectedStudent.id}}</div>
   <div>
-    <label for="student-name">Hero name: </label>
+    <label for="student-name">Student name: </label>
     <input id="student-name" [(ngModel)]="selectedStudent.name" placeholder="name">
+  </div>
+  <div>
+    <label for="student-age">Student age: </label>
+    <input id="student-age" [(ngModel)]="selectedStudent.age" placeholder="age">
+  </div>
+  <div>
+    <label for="student-sex">Student sex: </label>
+    <input id="student-sex" [(ngModel)]="selectedStudent.sex" placeholder="sex">
+  </div>
+  <div>
+    <label for="student-course">Student course: </label>
+    <input id="student-course" [(ngModel)]="selectedStudent.course" placeholder="course">
   </div>
 
 </div>
